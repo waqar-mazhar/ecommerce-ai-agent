@@ -1,6 +1,6 @@
 # 🛒 Laravel AI E-Commerce Agent
 
-An AI-powered e-commerce shopping assistant built with **Laravel AI SDK**, **Laravel 12**, **React**, **Inertia.js**, and **Tailwind CSS**.
+An AI-powered e-commerce shopping assistant built with **Laravel AI SDK**, **Laravel 13**, **React**, **Inertia.js**, and **Tailwind CSS**.
 
 The goal of this project is to build an intelligent shopping assistant that can understand natural language, search products, remember conversations, and eventually help users place orders using AI.
 
@@ -16,7 +16,7 @@ The goal of this project is to build an intelligent shopping assistant that can 
 
 ## 🛠️ Tech Stack
 
-- Laravel 12
+- Laravel 13
 - Laravel AI SDK
 - React
 - Inertia.js
