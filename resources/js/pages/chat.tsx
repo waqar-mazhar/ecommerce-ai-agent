@@ -118,7 +118,8 @@ export default function Chat() {
 
 
                     const data = line.replace("data:", "").trim();
-
+                    console.log("DATA", data);
+                    
 
                     if (data === "[DONE]") continue;
 
