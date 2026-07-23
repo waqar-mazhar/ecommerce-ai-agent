@@ -41,7 +41,7 @@ class ChatController extends Controller
         $stream = $conversationId ? (new CommerceAgent)->continue($conversationId, as: $user)->stream($request->message) : (new CommerceAgent)->forUser($user)->stream($request->message);
 
         return $stream->then(function (StreamedAgentResponse $response) {
-            Log::info($response);
+            // Log::info($response);
             return $response;
         });
     }
